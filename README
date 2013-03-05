@@ -1,0 +1,9 @@
+Run something like 
+
+python terminal.py --baudrate 57600 /dev/tty.usbserial-A40077XV /dev/tty.usbserial-A40078Pl
+
+With the two FTDI serial connections to listen to MKTools.
+
+Serialtest is a bit outdated, but has some stuff that can be used to request messages from the device.
+
+For most of the data, you want to send the 'o' command, or open the OST window in MKTools (connected through the third FTDI serial port)
